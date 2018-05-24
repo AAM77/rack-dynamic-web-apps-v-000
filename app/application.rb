@@ -13,6 +13,10 @@ class Application
       resp.write "You Lose"
     end
 
+    resp.write "#{num_1}\n"
+    resp.write "#{num_2}\n"
+    resp.write "#{num_3}\n"
+
     resp.finish
   end #call
 
